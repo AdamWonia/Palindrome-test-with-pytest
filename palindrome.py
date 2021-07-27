@@ -1,4 +1,7 @@
 def is_palindrome(text):
+    # Function checks if given string 'text' is palindrome
+    # It return True if given word is palindrome and False otherwise 
+    
     # Replacing all characters except for alphanumeric:
     text = "".join(ch for ch in text if ch.isalpha()).lower()
     if text.replace(' ', '') == text.replace(' ', '')[::-1]:
