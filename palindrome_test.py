@@ -2,10 +2,6 @@ import pytest
 from palindrome import is_palindrome
 
 
-def test_init():
-    assert is_palindrome(" ")
-
-
 @pytest.mark.parametrize("text", (
         "Borrow or rob?",
         "Al lets Della call Ed \"Stella\""
