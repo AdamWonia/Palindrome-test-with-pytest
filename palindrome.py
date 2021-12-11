@@ -1,12 +1,9 @@
 def is_palindrome(text):
     """
-
-    :param text:
-    :return:
+    This function checks if the given text is a palindrome.
+    :param text: Input string to check if it is a palindrome.
+    :return: Returns True if the text is a palidrome and False otherwise.
     """
-    # Function checks if given string 'text' is palindrome
-    # It return True if given word is palindrome and False otherwise 
-    
     # Replacing all characters except for alphanumeric:
     text = "".join(ch for ch in text if ch.isalpha()).lower()
     if text.replace(' ', '') == text.replace(' ', '')[::-1]:
