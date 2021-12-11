@@ -1,4 +1,9 @@
 def is_palindrome(text):
+    """
+
+    :param text:
+    :return:
+    """
     # Function checks if given string 'text' is palindrome
     # It return True if given word is palindrome and False otherwise 
     
