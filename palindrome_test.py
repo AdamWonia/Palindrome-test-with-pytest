@@ -14,5 +14,5 @@ def test_is_palindrome(text):
         "hello",
         "Momm"
 ))
-def test_is_not_palidrome(text):
+def test_is_not_palindrome(text):
     assert not is_palindrome(text)
